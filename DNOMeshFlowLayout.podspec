@@ -26,6 +26,8 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = %{
   					基于UICollectionViewFlowLayout实现类似Excel这种可以合并单元格的视图表格。
+            同时可以定制宽高可变的UICollectionView。
+            详细请见Demo。
   }
 
   s.homepage     = "https://github.com/imagons"
@@ -88,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "DNOMeshFlowLayout/*/*.{h,m}"
+  s.source_files  = "DNOMeshFlowLayout/*.{h,m}"
   #s.exclude_files = "DNOMeshFlowLayout/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
